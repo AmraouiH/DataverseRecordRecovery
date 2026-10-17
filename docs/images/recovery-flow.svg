@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="960" height="300" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+
+  <!-- Steps -->
+  <g font-size="13" fill="#1f2328">
+    <rect x="24" y="40" width="200" height="110" rx="10" fill="#fff4e5" stroke="#f08c00"/>
+    <text x="40" y="66" font-weight="700" font-size="15" fill="#c26100">1 · Search</text>
+    <text x="40" y="90">Table, deleted by,</text>
+    <text x="40" y="108">date range</text>
+    <text x="40" y="132" fill="#57606a">Audit history (Delete)</text>
+
+    <rect x="256" y="40" width="200" height="110" rx="10" fill="#fff4e5" stroke="#f08c00"/>
+    <text x="272" y="66" font-weight="700" font-size="15" fill="#c26100">2 · Select</text>
+    <text x="272" y="90">Tick the records,</text>
+    <text x="272" y="108">check values before</text>
+    <text x="272" y="126">deletion</text>
+
+    <rect x="488" y="40" width="200" height="110" rx="10" fill="#fff4e5" stroke="#f08c00"/>
+    <text x="504" y="66" font-weight="700" font-size="15" fill="#c26100">3 · Review</text>
+    <text x="504" y="90">Recovery plan tree,</text>
+    <text x="504" y="108">options, warnings,</text>
+    <text x="504" y="126">explicit approval</text>
+
+    <rect x="720" y="40" width="216" height="110" rx="10" fill="#e6f4ea" stroke="#1a7f37"/>
+    <text x="736" y="66" font-weight="700" font-size="15" fill="#1a7f37">4 · Restore</text>
+    <text x="736" y="90">Original GUIDs,</text>
+    <text x="736" y="108">recovery log per record</text>
+  </g>
+  <g stroke="#57606a" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="226" y1="95" x2="252" y2="95"/>
+    <line x1="458" y1="95" x2="484" y2="95"/>
+    <line x1="690" y1="95" x2="716" y2="95"/>
+  </g>
+
+  <!-- Restore order -->
+  <text x="24" y="196" font-size="13" font-weight="700" fill="#57606a">RESTORE ORDER</text>
+  <g font-size="13" fill="#1f2328">
+    <rect x="24" y="210" width="160" height="48" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="104" y="239" text-anchor="middle">Missing parents</text>
+    <rect x="210" y="210" width="160" height="48" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="290" y="239" text-anchor="middle">Selected records</text>
+    <rect x="396" y="210" width="160" height="48" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="476" y="232" text-anchor="middle">Related records</text>
+    <text x="476" y="249" text-anchor="middle" fill="#57606a" font-size="12">deleted in cascade</text>
+    <rect x="582" y="210" width="160" height="48" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="662" y="239" text-anchor="middle">Status (state)</text>
+    <rect x="768" y="210" width="168" height="48" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="852" y="232" text-anchor="middle">N:N associations</text>
+    <text x="852" y="249" text-anchor="middle" fill="#57606a" font-size="12">+ unlinked records</text>
+  </g>
+  <g stroke="#57606a" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="186" y1="234" x2="206" y2="234"/>
+    <line x1="372" y1="234" x2="392" y2="234"/>
+    <line x1="558" y1="234" x2="578" y2="234"/>
+    <line x1="744" y1="234" x2="764" y2="234"/>
+  </g>
+</svg>
