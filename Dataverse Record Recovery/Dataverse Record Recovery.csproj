@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Dataverse_Record_Recovery</RootNamespace>
-    <AssemblyName>Dataverse Record Recovery</AssemblyName>
+    <AssemblyName>DataverseRecordRecovery</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>

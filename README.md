@@ -138,7 +138,7 @@ cd DataverseRecordRecovery
 msbuild "Dataverse Record Recovery.sln" /restore /p:Configuration=Release
 ```
 
-Copy `Dataverse Record Recovery\bin\Release\Dataverse Record Recovery.dll` to `%APPDATA%\MscrmTools\XrmToolBox\Plugins` and restart XrmToolBox.
+Copy `Dataverse Record Recovery\bin\Release\DataverseRecordRecovery.dll` to `%APPDATA%\MscrmTools\XrmToolBox\Plugins` and restart XrmToolBox.
 
 ### Project layout
 
